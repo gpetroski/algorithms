@@ -7,8 +7,8 @@ import org.gregp.algorithms.sorting.SortingAlgorithm;
 
 public class SortingAlgorithmTester {
 	public static void main(String[] args) {
-		//testAlgorithm(new BubbleSort());
-		//testAlgorithm(new SelectSort());	
+		testAlgorithm(new BubbleSort());
+		testAlgorithm(new SelectSort());	
 		testAlgorithm(new InsertionSort());		
 	}
 	

@@ -7,8 +7,9 @@ public class SelectSort implements SortingAlgorithm {
 	// 1, 2, 6, 4, 5
 	// 1, 2, 4, 6, 5
 	// 1, 2, 4, 5, 6
-	// Upper o(n^2)
-	// Lower w(n^2)
+	// Best O(n^2)
+	// Worst O(n^2)
+	// Aux O(1)
 	public Integer[] sort(Integer[] values) {
 		for(int n = 0; n < values.length - 1; n++) {
 			int min = values[n];

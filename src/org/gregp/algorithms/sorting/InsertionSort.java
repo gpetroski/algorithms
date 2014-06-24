@@ -7,6 +7,9 @@ public class InsertionSort implements SortingAlgorithm {
 	// 4, 5, 6, \3\, 2
 	// 3, 4, 5, 6, \2\
 	// 2, 3, 4, 5, 6
+	// Best 	O(n)
+	// Worst 	O(n^2)
+	// Aux		O(1)
 //	public Integer[] sort(Integer[] values) {
 //		for(int i = 1; i < values.length; i++) {
 //			int value = values[i];
@@ -30,7 +33,7 @@ public class InsertionSort implements SortingAlgorithm {
 					values[i] = values[j];
 					values[j] = value;
 				}
-				printArray(values);
+				//printArray(values);
 			}
 		} 
 		return values;
