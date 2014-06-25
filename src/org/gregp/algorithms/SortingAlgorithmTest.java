@@ -1,15 +1,14 @@
 package org.gregp.algorithms;
 
-import org.gregp.algorithms.sorting.BubbleSort;
-import org.gregp.algorithms.sorting.InsertionSort;
-import org.gregp.algorithms.sorting.SelectSort;
+import org.gregp.algorithms.sorting.QuickSort;
 import org.gregp.algorithms.sorting.SortingAlgorithm;
 
-public class SortingAlgorithmTester {
+public class SortingAlgorithmTest {
 	public static void main(String[] args) {
-		testAlgorithm(new BubbleSort());
-		testAlgorithm(new SelectSort());	
-		testAlgorithm(new InsertionSort());		
+		//testAlgorithm(new BubbleSort());
+		//testAlgorithm(new SelectSort());	
+		//testAlgorithm(new InsertionSort());
+		testAlgorithm(new QuickSort());
 	}
 	
 	public static void testAlgorithm(SortingAlgorithm sortAlg) {		
